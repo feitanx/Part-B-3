@@ -1,0 +1,15 @@
+{
+  "apiVersion": 2,
+  "name": "custom/team-members",
+  "title": "Team Members",
+  "category": "widgets",
+  "icon": "groups",
+  "description": "A block to add team members with image, name, position, and toggleable description.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "team-members-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./style.css",
+  "style": "file:./style.css"
+}
