@@ -1,0 +1,35 @@
+.team-members-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    width: calc(50% - 20px);
+    display: flex;
+    align-items: flex-start;
+}
+
+.team-member-image {
+    margin-right: 20px;
+}
+
+.circular-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.team-member-details {
+    flex-grow: 1;
+}
+
+.bio {
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.bio.show {
+    display: block;
+    margin-top: 10px;
+}
